@@ -1,3 +1,5 @@
+//This program calculates the average of a set of marks until the user types "end"
+
 using System;
 
 public class Average
@@ -8,13 +10,13 @@ public class Average
 		string mark;
 
 		Console.Write("Insert a mark: ");
-		mark = Console.ReadLine(); // we read the mark as string to check the word "end"	 
+		mark = Console.ReadLine(); 	 
 
 		while (mark != "end")
-		{  // if the mark isn't an end then we pass it to double to work with it
+		{  
 			note = Convert.ToDouble(s);
-			counter++;   //counter of numbers
-			sumNotes += note;  // sum of all the notes
+			counter++;   
+			sumNotes += note;  
 
 			Console.Write("Insert a mark: ");
 			mark = Console.ReadLine();
@@ -22,7 +24,7 @@ public class Average
 
 		if (counter != 0)
 		{
-			average = sumNotes / counter;  //calculate the average
+			average = sumNotes / counter;  
 			Console.WriteLine("The average is {0}.", average);
 		}
 	}
