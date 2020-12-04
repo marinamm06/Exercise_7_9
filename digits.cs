@@ -24,7 +24,7 @@ class Digits
                 else if (numberUser / 1000 == 0)
                     threeDigits++;  
                 else
-                    moreDigits++;  frerfewf
+                    moreDigits++;  
             }
 
             userInsert = Console.ReadLine();
