@@ -15,7 +15,7 @@ class Digits
         {
             int numberUser = Convert.ToInt32(userInsert);
 
-            if (numberUser != 0)
+            if (numberUser != 0)egrg
             {
                 if (numberUser / 10 == 0)
                     oneDigit++;  
